@@ -6,13 +6,13 @@ gem "dotenv"
 gem "ffi"
 gem "rake"
 gem "rspec"
-gem "rubocop-govuk", require: false
+gem "rubocop-govuk", ">= 5.0.9", require: false
 gem "sanitize"
 gem "simplecov"
 gem "webmock"
 
 gem "govuk_tech_docs"
-gem "middleman"
+gem "middleman", ">= 4.6.0"
 gem "middleman-search_engine_sitemap"
 
 gem "git"
