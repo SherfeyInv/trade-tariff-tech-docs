@@ -12,7 +12,7 @@ gem "simplecov"
 gem "webmock"
 
 gem "govuk_tech_docs"
-gem "middleman"
+gem "middleman", ">= 4.6.0"
 gem "middleman-search_engine_sitemap"
 
 gem "git"
